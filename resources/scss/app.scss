@@ -27,5 +27,14 @@ main {
 .background_footer {
   background-color: #2E353D;
   color: #fff;
-  height: 100px;
+  height: 200px;
+
+  h3 {
+    color: #667987;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 }
