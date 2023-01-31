@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+
+// header
+header {
+  background-color: #ad5454;
+
+  .my_wrap {
+    height: 90px;
+  }
+}
+
+// main
+main {
+  height: 60vh;
+}
+
+// footer
+.background_footer {
+  background-color: #725b5b;
+  height: 290px;
+}
