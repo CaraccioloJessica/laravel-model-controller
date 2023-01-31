@@ -1,5 +1,5 @@
 <header>
-  <div class="my_wrap">
-    <h1>Header section</h1>
+  <div class="d-flex justify-content-center align-items-center my_wrap">
+    <h1>Movies List</h1>
   </div>
 </header>

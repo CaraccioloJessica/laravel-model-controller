@@ -2,7 +2,8 @@
 
 // header
 header {
-  background-color: #ad5454;
+  background-color: #2E353D;
+  color: #fff;
 
   .my_wrap {
     height: 90px;
@@ -11,11 +12,20 @@ header {
 
 // main
 main {
-  height: 60vh;
+  background-color: #ECEFF1;
+
+  .my_card {
+    height: 350px;
+    width: 210px;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    color: #636363;
+  }
 }
 
 // footer
 .background_footer {
-  background-color: #725b5b;
-  height: 290px;
+  background-color: #2E353D;
+  color: #fff;
+  height: 100px;
 }
