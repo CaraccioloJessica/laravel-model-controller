@@ -6,8 +6,13 @@
 
 @section('content')
 <main>
-  <div>
-    <h2>Lista film</h2>
-  </div>
+  <h2>Movies list</h2>
+    <div>
+        <ul>
+            @foreach ($movies as $movie)
+                <li>{{ $movie -> title }}</li>
+            @endforeach
+        </ul>
+    </div>
 </main>
 @endsection

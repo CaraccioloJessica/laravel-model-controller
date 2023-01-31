@@ -10,6 +10,13 @@ class MainController extends Controller
 {
   public function movies()
   {
-    return view('movies');
+    $movies = Movies::all();
+
+    $data = [
+
+      'movies' => $movies
+    ];
+
+    return view('movies', $data);
   }
 }
